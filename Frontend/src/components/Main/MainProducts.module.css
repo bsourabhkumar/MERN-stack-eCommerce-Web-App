@@ -1,0 +1,9 @@
+.main-product {
+  display: flex;
+  flex-flow: wrap;
+}
+@media (max-width: 400px) {
+  .main-product {
+    align-items: center;
+  }
+}

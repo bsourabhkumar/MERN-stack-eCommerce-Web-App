@@ -1,0 +1,32 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  margin: 1vw;
+}
+.filter label {
+  font-size: 25px;
+  font-weight: 500;
+}
+.filter input {
+  cursor: pointer;
+  width: 22px;
+  height: 22px;
+}
+.filter button {
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  color: maroon;
+  background-color: mistyrose;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.filter button:hover {
+  color: mistyrose;
+  background-color: maroon;
+}
+@media (max-width: 400px) {
+  .filter button {
+    width: 40vw;
+  }
+}

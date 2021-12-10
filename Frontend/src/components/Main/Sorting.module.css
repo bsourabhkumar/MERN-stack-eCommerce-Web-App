@@ -1,0 +1,18 @@
+.sorting {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20vw;
+  margin: 1vw;
+  margin-top: 2vw;
+}
+.sorting > label {
+  font-size: 30px;
+  font-weight: 400;
+}
+.sorting > select {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: burlywood;
+  font-weight: 700;
+}
